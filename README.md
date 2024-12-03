@@ -7,4 +7,4 @@ courses.
 This application has been built as a Visual Studio 2022 solution, which includes two project types:
 1) MVC .Net Core
 2) WEB API
-Both projects are written in C#.
+Both projects are written in C#. A SQL Server database, including stored procedures, are used to maintain the data.
