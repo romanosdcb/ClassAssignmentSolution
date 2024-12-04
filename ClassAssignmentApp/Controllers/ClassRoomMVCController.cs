@@ -51,6 +51,7 @@ namespace ClassAssignmentApp.Controllers
                 ClassRoomDataOBJ.ErrorCondition = false;
             }
 
+            //Use API Call to get ClassRoom record
             HttpResponseMessage response = _client.GetAsync(_client.BaseAddress + "/ClassRoom").Result;
             ClassRoomMV.BuildingNumber = 0;
             ClassRoomMV.RoomNumber = 0;
